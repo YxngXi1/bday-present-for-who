@@ -1,4 +1,5 @@
 import React from 'react'
+import HeartCounter from '@/components/HeartCounter';
 
 const Info = () => {
   return (
@@ -11,8 +12,7 @@ const Info = () => {
 
                 <div className='card primary w-full'>
                     <div className='h-1 flex justify-end items-center'>
-                        <p>❤️</p>
-                        <p></p>
+                        <HeartCounter/>
                     </div>
                     <div className='flex w-full'>
                         <div className='w-1/2'>
