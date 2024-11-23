@@ -1,9 +1,8 @@
 import React from 'react'
-import HeartCounter from '@/components/HeartCounter';
 
 const Info = () => {
   return (
-    <section className='min-h-screen flex justify-center'>
+    <section className='min-h-screen flex justify-center my-20'>
         <div className='min-h-screen container '>
             <div className='min-h-screen flex flex-col w-full gap-y-12'>
                 <h1 className='ultratitle flex justify-center items-center'>Why am I a&nbsp;<p className='h-24 flex justify-center items-center gradient-text ultratitle'>super sigma</p>&nbsp;?</h1>
@@ -11,9 +10,6 @@ const Info = () => {
 
 
                 <div className='card primary w-full'>
-                    <div className='h-1 flex justify-end items-center'>
-                        <HeartCounter/>
-                    </div>
                     <div className='flex w-full'>
                         <div className='w-1/2'>
                             <h1 className='ultratitle'>hello im sigma</h1>
@@ -31,10 +27,6 @@ const Info = () => {
 
 
                 <div className='card primary w-full'>
-                    <div className='h-1 flex justify-end items-center'>
-                        <p>❤️</p>
-                        <p></p>
-                    </div>
                     <div className='flex w-full'>
                         <div className='w-1/2'>
                             <h1 className='ultratitle'>hello im sigma</h1>
@@ -52,10 +44,6 @@ const Info = () => {
 
 
                 <div className='card primary w-full'>
-                    <div className='h-1 flex justify-end items-center'>
-                        <p>❤️</p>
-                        <p></p>
-                    </div>
                     <div className='flex w-full'>
                         <div className='w-1/2'>
                             <h1 className='ultratitle'>hello im sigma</h1>

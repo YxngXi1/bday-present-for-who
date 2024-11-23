@@ -37,9 +37,11 @@ export default function HeartCounter() {
   };
 
   return (
-    <div className="h-1 flex justify-end items-center">
-      <p onClick={incrementCount} style={{ cursor: 'pointer', fontSize: '24px' }}>❤️</p>
-      <p>{count}</p>
+    <div className="flex justify-end items-center w-52">
+        <div onClick={incrementCount} className='prevent-select cursor-pointer p-2 w-1/2'>
+            <p className='heart'>❤️</p>
+        </div>
+        <p className=' w-1/2 text-white title'>{count}</p>
     </div>
   );
 }

@@ -588,3 +588,27 @@ td {
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
+
+.prevent-select {
+  -webkit-user-select: none; /* Safari */
+  -ms-user-select: none; /* IE 10 and IE 11 */
+  user-select: none; /* Standard syntax */
+}
+
+@keyframes expand {
+  0%, 100% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.05);
+  }
+}
+
+.heart {
+  display: inline-block;
+  transition: transform 0.1s ease-in-out;
+}
+
+.heart:active {
+  animation: expand 0.1s ease-in-out;
+}
